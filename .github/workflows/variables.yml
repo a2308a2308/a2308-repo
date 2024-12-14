@@ -4,6 +4,6 @@ jobs:
     print:
         runs-on: ubuntu-latest
         env:
-            USERNAME: ${{ vars.LUNCH }}
+            NAHANAHA: "senda mitsuo"
         steps:
-            - run: echo "${USERNAME}"
+            - run: echo "${NAHANAHA}"
