@@ -4,7 +4,7 @@ jobs:
  hello:
   runs-on: ubuntu-latest
   steps:
-   - run: |
+      - run: |
       echo "Hello, world"
       echo "Hello, world"
    - uses: actions/checkout@v4
