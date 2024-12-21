@@ -7,3 +7,8 @@ jobs:
         steps:
             - name: Amazing Script
               run: echo "Hello"
+        name: HOGE HOGE JOB
+        runs-on: ubuntu-latest
+        steps:
+            - name: FUGA FUGA script
+              run: echo "Hola!"
