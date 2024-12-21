@@ -8,5 +8,8 @@ jobs:
             - run: echo "Hello"
               if: ${{ failure() }}
             - run: echo hoge
+              if: ${{ success() }}
             - run: echo "fuga"
               if: ${{ failure() }}
+            - run: echo "hoo"
+              if: ${{ success() }}
