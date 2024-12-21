@@ -4,6 +4,9 @@ jobs:
     fail:
         runs-on: ubuntu-latest
         steps:
+            - run: exit 0
+            - run: echo hoge
+              if: ${{ success() }}
             - run: exit 1
             - run: echo "Hello"
               if: ${{ failure() }}
@@ -12,4 +15,4 @@ jobs:
             - run: echo "fuga"
               if: ${{ failure() }}
             - run: echo "hoo"
-              if: ${{ success() }}
+              if: ${{ always() }}
