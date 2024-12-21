@@ -3,7 +3,7 @@ on: push
 jobs:
     print:
         name: Super Useful Job
-        nuns-on: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Amazing Script
               run: echo "Hello"
