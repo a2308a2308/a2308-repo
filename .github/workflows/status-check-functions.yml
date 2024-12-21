@@ -7,7 +7,6 @@ jobs:
             - run: exit 0
             - run: echo hoge
               if: ${{ success() }}
-            - run: exit 1
             - run: echo "Hello"
               if: ${{ failure() }}
             - run: echo hoge
