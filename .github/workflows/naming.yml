@@ -7,6 +7,7 @@ jobs:
         steps:
             - name: Amazing Script
               run: echo "Hello"
+    print2:
         name: HOGE HOGE JOB
         runs-on: ubuntu-latest
         steps:
