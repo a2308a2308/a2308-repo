@@ -14,5 +14,6 @@ jobs:
               if: ${{ success() }}
             - run: echo "fuga"
               if: ${{ failure() }}
+            - run: echo "fuga" # 上で失敗しているので走らない
             - run: echo "hoo"
               if: ${{ always() }}
