@@ -5,7 +5,7 @@ on:
 jobs:
     test:
         runs-on: ubuntu-latest
-        stesps:
+        steps:
             - uses: actions/checkout@4
             - uses: actions/setup-go@5
               with:
