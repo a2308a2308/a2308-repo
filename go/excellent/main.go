@@ -5,5 +5,6 @@ func EvenOrOdd(number int) string{
 		return "even"
 	}else{
 		return "odd"
+		
 	}
 }
