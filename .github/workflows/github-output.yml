@@ -2,7 +2,7 @@ name: Github output
 on: push
 jobs: 
     share:
-        rens-on: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
             - id: source
               run: echo "result=Hello" >> "${GITHUB_OUTPUT}"
