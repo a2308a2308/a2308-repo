@@ -3,6 +3,6 @@ on: push
 jobs:
     sleep:
         runs-on: ubuntu-latest
-        uimeout-minutes: 1
+        timeout-minutes: 1
         steps:
             - run: sleep 120
