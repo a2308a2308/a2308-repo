@@ -3,7 +3,7 @@ on: push
 jobs:
     print:
         runs-on: ubuntu-latest
-        steps: bash
+        steps: 
             - shell: bash
               run: echo "${SHELL}"
             - shell: python
