@@ -7,7 +7,7 @@ jobs:
             - shell: bash
               run: echo "${SHELL}"
             - shell: python
-              run:|
+              run: |
                 import os
                 print(os.environ['PATH'])
 
