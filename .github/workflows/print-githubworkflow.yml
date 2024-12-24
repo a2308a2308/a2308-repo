@@ -1,4 +1,4 @@
-name: Print github.workflow
+name: kokoni workflow name が入るよ！
 on: push
 jobs:
     print:
