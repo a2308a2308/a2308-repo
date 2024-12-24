@@ -1,0 +1,9 @@
+name: Print github.workflow
+on: push
+jobs:
+    print:
+        runs-on: ubuntu-latest
+        env:
+            WORKFLOW: ${{ github.workflow }}
+        steps:
+            - runs: echo "${WORKFLOW}"
