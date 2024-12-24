@@ -6,4 +6,4 @@ jobs:
         env:
             WORKFLOW: ${{ github.workflow }}
         steps:
-            - runs: echo "${WORKFLOW}"
+            - run: echo "${WORKFLOW}"
